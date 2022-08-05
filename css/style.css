@@ -1,0 +1,182 @@
+.container {
+  max-width: 1380px;
+}
+.container body {
+  background-color: #000;
+}
+.container header {
+  width: 1440px;
+  height: 80px;
+  display: flex;
+}
+.container .nav_left {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.container .nav_left img {
+  width: 202px;
+  height: 28px;
+}
+.container .nav_right {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  margin-left: 300px;
+}
+.container .nav_right a {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000C2D;
+  text-transform: capitalize;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.container .nav_right a:hover {
+  border-bottom: 2px solid black;
+}
+.container .nav_right .demo_btn {
+  width: 136px;
+  height: 44px;
+  border: 2px solid #2F70FE;
+  background: transparent;
+  color: #2F70FE;
+  font-weight: bolder;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.container .nav_right .demo_btn:hover {
+  background-color: #2F70FE;
+  color: #fff;
+  border-radius: 10px;
+}
+.container .nav_right .login_btn {
+  width: 58px;
+  height: 18px;
+  border: none;
+  background: transparent;
+  display: flex;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container .main {
+  background-image: url(/img/Group135.png);
+  width: 1380px;
+  height: 543px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.container .main .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.container .main .texts .main_text_first {
+  font-size: 48px;
+  color: #fff;
+}
+.container .main .texts .main_text_second {
+  margin-top: -15px;
+  font-size: 16px;
+  color: #fff;
+}
+.container .main .texts .main_text_third {
+  margin-top: -15px;
+  font-size: 16px;
+  color: #fff;
+}
+.container .main .texts .register_btn {
+  width: 162px;
+  height: 52px;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+.container .main .texts .register_btn:hover {
+  background-color: #2F70FE;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 10px;
+}
+.container .main_statistc {
+  background-image: url(/img/kl.jpg);
+  width: 1440px;
+  height: 561px;
+  margin-left: -30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: -90px;
+}
+.container .main_statistc .statistic {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-display: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.container .main_statistc .statistic .cards {
+  width: 824px;
+  height: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container .main_statistc .statistic .cards .first_card {
+  width: 210px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .main_statistc .statistic .cards .first_card .card_texts {
+  margin-top: -15px;
+}
+.container .about_chanel {
+  width: 1380px;
+  height: 500px;
+  margin-top: 475px;
+  display: flex;
+  justify-content: center;
+}
+.container .about_chanel .first_about {
+  width: 650px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.container .about_chanel .first_about .for_chanel {
+  font-size: 28px;
+  color: #000;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+.container .about_chanel .first_about .for_chanel_texts {
+  font-size: 15px;
+  color: #000C2D;
+  margin-top: -10px;
+  margin-left: 300px;
+}
+.container .about_chanel .second_about {
+  width: 650px;
+  height: 500px;
+}
+.container .about_chanel .second_about .search_img {
+  width: 421px;
+  height: 310px;
+  margin-top: 90px;
+}/*# sourceMappingURL=style.css.map */
